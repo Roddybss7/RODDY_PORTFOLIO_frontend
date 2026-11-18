@@ -1,0 +1,54 @@
+
+:root {
+  /* Brand Colors */
+  --primary-color: #A8FF02;
+  --secondary-color: #FFFFFF;
+
+  /* Background Colors */
+  --bg-color: #000000;
+  --card-bg: #111111;
+  --surface-color: #181818;
+
+  /* Text Colors */
+  --text-color: #FFFFFF;
+  --text-secondary: #A1A1AA;
+
+  /* Border Colors */
+  --border-color: #222222;
+
+  /* Effects */
+  --glow-color: rgba(168, 255, 2, 0.25);
+
+  /* Hover Colors */
+  --hover-color: #95E600;
+}
+
+
+//
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+
+font-family: "Open Sans", sans-serif;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+:root {
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-other: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+body, p {
+    font-family: var(--font-body);
+}
+
+button, nav, label {
+    font-family: var(--font-other);
+}
